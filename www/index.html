@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>GI Update</title>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/spn.js"></script>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/EmailComposer.js"></script>
+        
+<script type="text/javascript" src="js/index.js" ></script>
+
+<link rel="next" title="GIUpdate" href="" />
+<link rel="prev" title="GIUpdate" href="" />
+<script language="javascript">
+$(document).bind('mobileinit', function(){
+      $.mobile.metaViewportContent = 'width=device-width, minimum-scale=1, maximum-scale=2';
+});
+</script>
+<link href="css/form.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="container form_bg">
+<form class="member_registration_form">
+    <input type="text" placeholder="* First Name" class="input_style" maxlength="10" id="first_name"/>
+    <input type="text" placeholder="* Last Name" class="input_style" maxlength="10" id="last_name"/>
+    <input type="text" placeholder="* Qualification" class="input_style" maxlength="10" id="qualification"/>
+    <input type="email" placeholder="* Email" class="input_style" id="email_id"/>
+    <div id="email_txt"></div>
+    <select name="" size="1" placeholder="* State" class="input_style" id="state_det">
+        <option value="" disabled selected style="color:#a9a9a9 !important;" >* State</option>
+        <option value='Andaman and Nicobar Islands'>Andaman and Nicobar Islands</option>
+        <option value='Andhra Pradesh'>Andhra Pradesh</option>
+        <option value='Arunachal Pradesh'>Arunachal Pradesh</option>
+        <option value='Assam'>Assam</option>
+        <option value='Bihar'>Bihar</option>
+        <option value='Chandigarh'>Chandigarh</option>
+        <option value='Chhattisgarh'>Chhattisgarh</option>
+        <option value='Dadra and Nagar Haveli'>Dadra and Nagar Haveli</option>
+        <option value='Daman and Diu'>Daman and Diu</option>
+        <option value='Delhi'>Delhi</option>
+        <option value='Goa'>Goa</option>
+        <option value='Gujarat'>Gujarat</option>
+        <option value='Haryana'>Haryana</option>
+        <option value='Himachal Pradesh'>Himachal Pradesh</option>
+        <option value='Jammu and Kashmir'>Jammu and Kashmir</option>
+        <option value='Jharkhand'>Jharkhand</option>
+        <option value='Karnataka'>Karnataka</option>
+        <option value='Kerala'>Kerala</option>
+        <option value='Lakshadweep'>Lakshadweep</option>
+        <option value='Madhya Pradesh'>Madhya Pradesh</option>
+        <option value='Maharashtra'>Maharashtra</option>
+        <option value='Manipur'>Manipur</option>
+        <option value='Meghalaya'>Meghalaya</option>
+        <option value='Mizoram'>Mizoram</option>
+        <option value='Nagaland'>Nagaland</option>
+        <option value='Odisha'>Odisha</option>
+        <option value='Puducherry'>Puducherry</option>
+        <option value='Punjab'>Punjab</option>
+        <option value='Rajasthan'>Rajasthan</option>
+        <option value='Sikkim'>Sikkim</option>
+        <option value='Tamil Nadu'>Tamil Nadu</option>
+        <option value='Telengana'>Telengana</option>
+        <option value='Tripura'>Tripura</option>
+        <option value='Uttar Pradesh'>Uttar Pradesh</option>
+        <option value='Uttarakhand'>Uttarakhand</option>
+        <option value='West Bengal'>West Bengal</option>
+    </select>
+    <input type="tel" placeholder="* Mobile Number" maxlength="13" class="input_style" id="mobile_numbr"/>
+    <div id="mobile_txt"></div>
+
+    <input type="text" placeholder="* City" class="input_style" maxlength="10" id="city"/>
+
+    <input type="text" placeholder="Medical Council Registration No." maxlength="13" class="input_style" id="medical_no"/>
+
+    <input name="subscribe" type="checkbox" value="" id="subscribe_box"/>
+    <div id="subscribe_txt"></div>
+
+    <input type="button" value="" id="save" class="submit_btn"/>
+</form>
+
+</div><!--container ends here-->
+<script type="text/javascript">
+          app.initialize();
+</script>
+<!--<script type="text/javascript">
+
+
+$(document).ready(function(e) {
+   
+	
+});
+</script>-->
+</body>
+</html>

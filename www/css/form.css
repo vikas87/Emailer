@@ -1,0 +1,263 @@
+*{
+	margin:0;
+	padding:0;
+ }
+.container{
+	width:1024px;
+	height:768px;
+	position:relative;
+	margin:0 auto;
+	overflow:hidden;
+	}
+
+
+/* Form Style Starts Here*/
+.form_bg{
+  background: url("../images/pg_0-01.jpg");
+  -webkit-background-size: 1024px 768px;
+}
+.member_registration_form{
+	background:url(../images/pg_-51.png) no-repeat;
+	width:823px;
+	height:575px;
+	-webkit-background-size:823px 575px;
+	position: absolute;
+	top: 30px;
+	left: 100px;
+}
+.input_style{
+	border-top:2px solid #0e2943;
+	border-bottom:3px solid #0e2943;
+	-webkit-box-shadow: inset 0px 4px 4px #c7c7c7;
+	border-left: 1px solid #0e2943;
+	border-right: 1px solid #0e2943;
+	font-size: 15px;
+	padding: 5px;
+	width: 170px;
+	color: #0e2943;
+	}
+#first_name{
+	position:absolute;
+	top: 250px;
+	left: 35px;
+	}
+#last_name{
+	position:absolute;
+	top: 250px;
+	left: 240px;
+	}
+#qualification{
+	position:absolute;
+	top: 250px;
+	left: 445px;
+	}
+#email_id{
+	width:280px!important;
+	position:absolute;
+	top: 310px;
+	left: 35px;
+	}
+#state_det{
+	width:290px!important;
+	position:absolute;
+	top: 310px;
+	left: 445px;
+	}
+option:first, select{
+	color:#a9a9a9 !important;
+	}
+#email_txt{
+	background:url(../images/pg_-52.png) no-repeat;
+	width:245px;
+	height:20px;
+	-webkit-background-size: 245px 20px;
+	position:absolute;
+	top: 350px;
+	left: 50px;
+	
+	}
+#mobile_numbr{
+	width:280px!important;
+	position:absolute;
+	top: 392px;
+	left: 35px;
+	}
+#mobile_txt{
+	background:url(../images/pg_-53.png) no-repeat;
+	width:140px;
+	height:20px;
+	-webkit-background-size: 140px 20px;
+	position:absolute;
+	top: 435px;
+	left: 50px;
+	}
+#city{
+	width:280px!important;
+	position:absolute;
+	top: 392px;
+	left: 445px;
+	}
+#medical_no{
+	width:280px!important;
+	position:absolute;
+	top: 480px;
+	left: 35px
+	}
+#subscribe_box{
+	position:absolute;
+	top: 485px;
+	left: 445px;
+	}
+#subscribe_txt{
+	background:url(../images/pg_-54.png) no-repeat;
+	width:155px;
+	height:15px;
+	-webkit-background-size: 155px 15px;
+	position:absolute;
+	top: 484px;
+	left: 468px;
+	}
+input[type=checkbox] {
+	background-color:#ffffff;
+	border: 1px solid #0e2943;
+	
+	}
+.submit_btn{
+	background:url(../images/Submit-51.png) no-repeat;
+	width:823px;
+	height:61px;
+	-webkit-background-size: 823px 61px;
+	position:absolute;
+	top: 578px;
+	left: 0px;
+	border:none;
+	}
+/* Form Style Ends Here*/
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+.form_bg{
+  background: url("../images/pg_0-01.jpg");
+  -webkit-background-size: 1024px 768px;
+}
+.member_registration_form{
+	background:url(../images/pg_-51.png) no-repeat;
+	width:823px;
+	height:575px;
+	-webkit-background-size:823px 575px;
+	position: absolute;
+	top: 30px;
+	left: 100px;
+}
+.input_style{
+	border-top:2px solid #0e2943;
+	border-bottom:3px solid #0e2943;
+	-webkit-box-shadow: inset 0px 4px 4px #c7c7c7;
+	border-left: 1px solid #0e2943;
+	border-right: 1px solid #0e2943;
+	font-size: 15px;
+	padding: 5px;
+	width: 170px;
+	color: #0e2943;
+	}
+#first_name{
+	position:absolute;
+	top: 250px;
+	left: 35px;
+	}
+#last_name{
+	position:absolute;
+	top: 250px;
+	left: 240px;
+	}
+#qualification{
+	position:absolute;
+	top: 250px;
+	left: 445px;
+	}
+#email_id{
+	width:280px!important;
+	position:absolute;
+	top: 310px;
+	left: 35px;
+	}
+#state_det{
+	width:290px!important;
+	position:absolute;
+	top: 310px;
+	left: 445px;
+	}
+option:first, select{
+	color:#a9a9a9 !important;
+	}
+#email_txt{
+	background:url(../images/pg_-52.png) no-repeat;
+	width:245px;
+	height:20px;
+	-webkit-background-size: 245px 20px;
+	position:absolute;
+	top: 350px;
+	left: 50px;
+	
+	}
+#mobile_numbr{
+	width:280px!important;
+	position:absolute;
+	top: 392px;
+	left: 35px;
+	}
+#mobile_txt{
+	background:url(../images/pg_-53.png) no-repeat;
+	width:140px;
+	height:20px;
+	-webkit-background-size: 140px 20px;
+	position:absolute;
+	top: 435px;
+	left: 50px;
+	}
+#city{
+	width:280px!important;
+	position:absolute;
+	top: 392px;
+	left: 445px;
+	}
+#medical_no{
+	width:280px!important;
+	position:absolute;
+	top: 480px;
+	left: 35px
+	}
+#subscribe_box{
+	position:absolute;
+	top: 485px;
+	left: 445px;
+	}
+#subscribe_txt{
+	background:url(../images/pg_-54.png) no-repeat;
+	width:155px;
+	height:15px;
+	-webkit-background-size: 155px 15px;
+	position:absolute;
+	top: 484px;
+	left: 468px;
+	}
+input[type=checkbox] {
+	background-color:#ffffff;
+	border: 1px solid #0e2943;
+	
+	}
+.submit_btn{
+	background:url(../images/Submit-51.png) no-repeat;
+	width:823px;
+	height:61px;
+	-webkit-background-size: 823px 61px;
+	position:absolute;
+	top: 578px;
+	left: 0px;
+	border:none;
+	}	
+}
